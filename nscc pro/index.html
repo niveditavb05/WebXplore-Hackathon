@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/logo.png" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html" class="active">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="home">
+		<h2>
+			LEETCODE Coding Club
+		</h2>
+		<p>
+			Tension Free With LEETCODE<br>
+			If you have a strong mind and plant it a strong resolve, you can change your destiny.
+		</p>
+		<div class="btn">
+			<a href="#" class="blue">Learn More</a>
+		</div>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Awesome advantages with leetcode</h1>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				
+				<h3>1. </h3>
+				<p>
+					LeetCode provides a wide range of coding questions, some of which may show up in interviews.				</p>
+			</div>
+
+			<div class="fea-box">
+				<h3>2.</h3>
+				<p>
+					LeetCode has a large and active community that provides users with opportunities to interact with other developers.				</p>
+			</div>
+
+			<div class="fea-box">
+				<h3> 3.</h3>
+				<p>
+					LeetCode is a platform that offers a range of tools and resources for individuals who are preparing for technical interviews or looking to improve their coding skills. 				</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+
+	
+			
+
+			
+
+
+	<!-- Registration section starts from here -->
+	<section id="registration">
+		<div class="reminder">
+			<h1>Registration To join club</h1>
+
+			<!-- <div class="time">
+				<div class="date">18 <br> Days</div>
+				<div class="date">23 <br> Hours</div>
+				<div class="date">06 <br> Minutes</div>
+				<div class="date">58 <br> Seconds</div>
+			</div> -->
+		</div>
+
+		<div class="form">
+			<h3>Create Free Account NOW!</h3>
+
+			<input type="text" placeholder="Name" name="" id="">
+			<input type="email" placeholder="Email ID" name="" id="">
+			<input type="text" placeholder="Contact Number" name="" id="">
+
+			<div class="btn">
+				<a href="#" class="yellow">Submit Form</a>
+			</div>
+		</div>
+	</section>
+	<!-- Registration section ends from here -->
+
+
+	<!-- Experts section starts from here -->
+	<section id="experts">
+		<h1>Leetcode club Community </h1>
+		<div class="expert-box">
+			<div class="profile">
+				<img src="img/pro1.webp" alt="">
+				<h6>john </h6>
+				<p>Python & Algorithms Expert</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+
+			<div class="profile">
+				<img src="img/pro2.webp" alt="">
+				<h6>ABC</h6>
+				<p>Data Design Expert</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+
+			<div class="profile">
+				<img src="img/pro3.webp" alt="">
+				<h6>PQR</h6>
+				<p>Full Stack Developer</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+
+			<div class="profile">
+				<img src="img/pro4.webp" alt="">
+				<h6>XYZ</h6>
+				<p>Design Expert</p>
+				<div class="pro-links">
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-instagram"></i>
+					<i class="fab fa-linkedin-in"></i>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Experts section ends from here -->
+
+	
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>

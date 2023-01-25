@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Education Website Template</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="about.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+		<img src="img/logo.png" class="logo" alt="">
+
+		<div class="navigation">
+			<ul>
+				<i id="menu-close" class="fas fa-times"></i>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html" class="active">About Us</a></li>
+				<li><a href="blog.html">Blog</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+
+			<img src="img/menu.png" id="menu-btn" alt="">
+		</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			About 
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- About section starts from here -->
+	<section id="about-container">
+		<div class="about-img">
+			<img src="img/b3.jpg" alt="">
+		</div>
+		<div class="about-text">
+			<h2>
+				Welcome to Leetcode coding club, Enhance your skills with us.
+			</h2>
+			
+
+			<div class="about-fe">
+				<img src="img/fe1.png" alt="">
+				<div class="fe-text">
+					<p>			If you have a strong mind and plant it a strong resolve, you can change your destiny.
+					</p>
+					
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!-- About section ends from here -->
+
+
+	<!-- Features section starts from here -->
+	<section id="features">
+		<h1>Awesome advantages with leetcode</h1>
+
+		<div class="fea-base">
+			<div class="fea-box">
+				
+				<h3>1. </h3>
+				<p>
+					LeetCode provides a wide range of coding questions, some of which may show up in interviews.				</p>
+			</div>
+
+			<div class="fea-box">
+				<h3>2.</h3>
+				<p>
+					LeetCode has a large and active community that provides users with opportunities to interact with other developers.				</p>
+			</div>
+
+			<div class="fea-box">
+				<h3> 3.</h3>
+				<p>
+					LeetCode is a platform that offers a range of tools and resources for individuals who are preparing for technical interviews or looking to improve their coding skills. 				</p>
+			</div>
+		</div>
+	</section>
+	<!-- Features section ends from here -->
+
+
+
+	<!-- Trust section starts from here -->
+	<section id="trust">
+		<h1>Trusted By</h1>
+		<div class="trust-img">
+			<img src="img/trust (1).png" alt="">
+			<img src="img/trust (2).png" alt="">
+			<img src="img/trust (3).png" alt="">
+			<img src="img/trust (4).png" alt="">
+			<img src="img/trust (5).png" alt="">
+			<img src="img/trust (6).png" alt="">
+		</div>
+	</section>
+	<!-- Trust section ends from here -->
+
+
+
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
